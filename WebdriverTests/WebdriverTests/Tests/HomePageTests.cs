@@ -11,8 +11,11 @@ namespace WebdriverTests.tests
         [TestMethod]
         public void GoToHomePageTest()
         {
-            HomePage hp = new HomePage(Driver);
+            HomePage hp = new HomePage(Driver, true);
+            hp.LocationButton(Driver).Click();
             System.Threading.Thread.Sleep(5);
+
+            Assert.IsTrue(Driver.Title == "banana", "Title was actually; " + Driver.Title);
         }
     }
 }

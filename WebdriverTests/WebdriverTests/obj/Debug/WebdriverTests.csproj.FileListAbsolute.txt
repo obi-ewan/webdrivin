@@ -18,3 +18,4 @@ E:\users\ewan\documents\visual studio 2017\Projects\WebdriverTests\WebdriverTest
 E:\users\ewan\documents\visual studio 2017\Projects\WebdriverTests\WebdriverTests\bin\Debug\WebDriver.Support.xml
 E:\users\ewan\documents\visual studio 2017\Projects\WebdriverTests\WebdriverTests\obj\Debug\WebdriverTests.dll
 E:\users\ewan\documents\visual studio 2017\Projects\WebdriverTests\WebdriverTests\obj\Debug\WebdriverTests.pdb
+E:\users\ewan\documents\visual studio 2017\Projects\WebdriverTests\WebdriverTests\obj\Debug\WebdriverTests.csprojResolveAssemblyReference.cache
