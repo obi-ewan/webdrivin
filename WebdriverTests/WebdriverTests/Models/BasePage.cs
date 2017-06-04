@@ -4,8 +4,6 @@ using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Support.Events;
 using OpenQA.Selenium.Chrome;
-using System;
-
 namespace WebdriverTests.Models
 {
     public abstract class BasePage

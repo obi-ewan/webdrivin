@@ -1,6 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenQA.Selenium;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WebdriverTests.Models;
 
 namespace WebdriverTests.tests
@@ -13,7 +11,6 @@ namespace WebdriverTests.tests
         {
             HomePage hp = new HomePage(Driver, true);
             hp.LocationButton(Driver).Click();
-            System.Threading.Thread.Sleep(5);
 
             Assert.IsTrue(Driver.Title == "banana", "Title was actually; " + Driver.Title);
         }
